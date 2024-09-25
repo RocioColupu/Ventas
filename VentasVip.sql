@@ -43,3 +43,5 @@ ALTER TABLE VentaUniforme ADD FOREIGN KEY (idCliente) REFERENCES ClienteUniforme
 ALTER TABLE VentaUniforme ADD FOREIGN KEY (idProductos) REFERENCES Productos (idProductos);
 
 ALTER TABLE Pagos ADD FOREIGN KEY (idVenta) REFERENCES VentaUniforme (idVenta);
+
+// Comiteando
